@@ -104,9 +104,10 @@ export const HeroName = styled.p`
     transform: rotate(270deg);
     letter-spacing: .5rem; 
     position: absolute; 
-    top: calc(100vh - 500px); 
-    left: -50px;
+    top: calc(100vh - 550px); 
+    left: -200px;
     font-size: 20px; 
+    font-weight: 300;
     color: #a29e9e;
     transition: 0.3s all ease;
     @media ${device.ipad} {
@@ -118,7 +119,7 @@ export const HeroName = styled.p`
 export const HeroScrollLine = styled.div`
     transform: rotate(270deg); 
     position: absolute; 
-    top: calc(100vh - 400px); 
+    top: calc(100vh - 500px); 
     right: -80px; 
     width: 300px; 
     height: 1px; 
